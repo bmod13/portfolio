@@ -1,3 +1,58 @@
-header {
-    color: aqua;
+body {
+    background-color: rgb(225, 225, 225);
+}
+
+.portfolio {
+    background-color: lightblue;
+    position: fixed;
+    width: 99%;
+}
+#main {
+    display: inline-block;
+    position: relative;
+    left: 10%;
+}
+
+#navbar {
+    display: inline-block;
+    position: relative;
+    left: 75%;
+}
+
+.myself {
+    display: inline-block;
+}
+#firstimage {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 40px;
+    left: 10%;
+    z-index: -1;
+}
+
+#textabtm {
+    display: inline-block;
+    width: 40%;
+    position: relative;
+    top: 100px;
+    left: 15%;
+    z-index: -1;
+}
+
+#projects {
+    width: 40%;
+    position: relative;
+    top: 100px;
+    left: 30%;
+    z-index: -1;
+}
+ul img {
+    width: 400px;
+    height: 300px;
+}
+
+footer {
+    background-color: lightblue;
+    margin: 100px;
 }
