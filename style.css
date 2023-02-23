@@ -21,6 +21,8 @@ body {
 
 #aboutme {
     display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 #firstimage {
     display: inline-block;
@@ -38,6 +40,11 @@ body {
     top: 100px;
     left: 15%;
     z-index: -1;
+}
+
+#myprojs {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 #projects, details {
@@ -60,3 +67,50 @@ footer {
     background-color: lightblue;
     margin: 100px;
 }
+
+@media only screen and (max-width: 425px) {
+    .portfolio {
+        background-color: lightblue;
+        position: fixed;
+        width: 83%;
+    }
+    
+    #navbar {
+        display: inline-block;
+        position: relative;
+        left: 30%;
+    }
+   
+    #firstimage {
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        top: 40px;
+        left: 5%;
+        z-index: -1;
+    }
+
+    #textabtm {
+        display: inline-block;
+        width: 80%;
+        position: relative;
+        top: 20%;
+        left: 15%;
+        z-index: -1;
+        margin-top: 30px;
+    }
+
+    #projects, details {
+        display: block;
+        margin-left: 15%;
+        z-index: -1;
+    }
+
+    footer {
+        display: inline-block;
+        background-color: lightblue;
+        width: 113%;
+        margin-left: 0%;
+    }
+}
+    
