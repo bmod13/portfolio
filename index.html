@@ -2,6 +2,8 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+
         <title>Brayan's Portfolio</title>
     </head>
     <!--BODY-->
@@ -24,7 +26,7 @@
         
         
         <!--ABOUT ME-->
-        <div class="myself">
+        <div id="aboutme">
             <div id="firstimage">
                 <img src="self-image.png" alt="an image of myself">
             </div>
@@ -40,22 +42,37 @@
         <br>
 
         <!--PROJECTS-->
-        <div id="projects">
-            <header>
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div id="myprojs">
+            <header id="projects">
                 <h2>Projects</h2>
             </header>
-            <ul>
-                <li><h3>Dasmoto's Arts and Crafts</h3></li>
-                    <img src="finnish copy.jpeg" alt="paint tubes">
-                    <h4>The project consisted of creating a simple webpage using only html and css to demostrate the products and prices of an arts and craft store.</h4>
-                <li><h3>Fotomatic</h3></li>
+            <details class="myDetails" onclick="myFunction()">
+                    <summary>Dasmoto's Arts and Crafts</summary>
+                    <img src="finnish copy.jpeg" alt="paint tubes" id="first">
+                    <h4 class="first">The project consisted of creating a simple webpage using only html and css to demostrate the products and prices of an arts and craft store.</h4>
+             </details>
+             <details class="myDetails" onclick="myFunction()">
+                    <summary>Fotomatic</summary>
                     <img src="feature-1 copy.png" alt="camera lense with nataural landscape">
                     <h4>The project consisted of creating a simple webpage using only html and css with an emphasis on using the box model to demostrate the services being offered.</h4>
-                <li><h3>Mixed Messages</h3></li>
+             </details>
+             
+             
+             <details class="myDetails" onclick="myFunction()">
+                    <summary>Mixed Messages</summary>
                     <img src="screenshot.png" alt="javascript code for creating a fortune teller">
-                    <h4>The projected consisted of creating a fortune teller using javascript.</h4>
-            </ul>
-        </div>
+                    <h4>The project consisted of creating a fortune teller using javascript.</h4>
+            </details>    
+        </div>                
+ 
         <br>
         <br>
         <br>
@@ -76,6 +93,6 @@
                 <li>phone number: 908 242 4448</li>
             </ul>
         </footer>
-
+    
     </body>
 </html>

@@ -1,1 +1,3 @@
-console.log('hello');
+function myFunction() {
+    document.getElementByClassName("myDetails").open = true;
+  }

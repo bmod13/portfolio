@@ -19,7 +19,7 @@ body {
     left: 75%;
 }
 
-.myself {
+#aboutme {
     display: inline-block;
 }
 #firstimage {
@@ -40,16 +40,20 @@ body {
     z-index: -1;
 }
 
-#projects {
-    width: 40%;
-    position: relative;
-    top: 100px;
-    left: 30%;
+#projects, details {
+    display: block;
+    margin-left: 35%;
     z-index: -1;
 }
-ul img {
+
+
+details img {
     width: 400px;
     height: 300px;
+}
+
+h4 {
+    width: 400px;
 }
 
 footer {
